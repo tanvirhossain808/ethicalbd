@@ -8,12 +8,20 @@ const CardsImages = () => {
         card3
     ]
     return (
-        <div className="cardImagesContainer">
-            {
-                cards.map((img, index) => <img key={index} src={img} />)
-            }
+        <>
+            <div className="cardImageHeader">
+                <h2>
+                    Lorem Ipsum is simply dummy
+                </h2>
+            </div>
+            <div className="cardImagesContainer">
+                {
+                    cards.map((img, index) => <img key={index} src={img} />)
+                }
 
-        </div>
+            </div>
+        </>
+
     );
 };
 

@@ -2,3 +2,13 @@
     margin-bottom: 150px;
     height: 970px;
 }
+
+.cards,
+.gallery {
+    margin-top: 150px;
+
+}
+
+.gallery {
+    height: 860px;
+}

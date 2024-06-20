@@ -2,6 +2,7 @@ import "./LandingPage.css";
 import DiscoverableImage from "../../components/LandingPage/DiscoverImages/DiscoverImages";
 import HeroContainer from "../../components/LandingPage/HeroContainer/HeroContainer";
 import CardsImages from "../../components/LandingPage/CardsImages/CardsImages";
+import GalleryImages from "../../components/LandingPage/GalleryImages/GalleryImages";
 
 const LandingPage = () => {
     return (
@@ -15,6 +16,9 @@ const LandingPage = () => {
                 </div>
                 <div className="cards">
                     <CardsImages />
+                </div>
+                <div className="gallery">
+                    <GalleryImages />
                 </div>
             </div>
 

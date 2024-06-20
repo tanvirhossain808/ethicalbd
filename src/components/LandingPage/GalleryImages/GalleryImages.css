@@ -1,0 +1,59 @@
+.galleryContainer {
+    overflow: hidden;
+}
+
+.galleryContainer .galleryImageTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.galleryContainer .galleryImageTitle h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.galleryContainer .galleryImageTitle p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 569px;
+}
+
+.galleryContainer .galleryImages {
+    margin-top: 52px;
+    display: grid;
+    grid-template-areas:
+        "image1 image1 image2 image2"
+        "image3 image4 image2 image2"
+}
+
+.image1 {
+    grid-area: image1;
+    width: 100%;
+    height: auto;
+}
+
+.image2 {
+    grid-area: image2;
+    width: 100%;
+    height: auto;
+}
+
+.image3 {
+    grid-area: image3;
+    width: 100%;
+    height: auto;
+}
+
+.image4 {
+    grid-area: image4;
+    width: 100%;
+    height: auto;
+}

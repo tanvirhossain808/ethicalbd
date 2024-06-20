@@ -1,5 +1,18 @@
+.cardImageHeader h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    text-transform: capitalize;
+    width: 663px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
 .cardImagesContainer {
-    margin-top: 150px;
     display: flex;
     gap: 24px;
 }
