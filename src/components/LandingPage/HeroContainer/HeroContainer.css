@@ -1,0 +1,109 @@
+.heroContainer {
+    background: url("../../../assets/heroPage.png") lightgray 50% / cover no-repeat;
+    height: 826px;
+    width: 100%;
+    height: 826px;
+}
+
+.heroContainer .heroContainerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heroContainer .heroAvatar {
+    cursor: pointer;
+}
+
+.heroContainer .heroNavigation {
+    color: var(--natural-white, #fff);
+}
+
+.heroContainer .heroNavigation ul li {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.heroContainer .heroNavigation ul {
+    display: flex;
+    align-items: center;
+    gap: 31px;
+    font-family: var(--font-inter);
+}
+
+.heroContainer .heroContainerHeader button,
+.heroContainer .heroBodyMoreBTns button {
+    font-family: var(--font-poppins);
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 36px;
+    border-radius: 1000px;
+    background: #ED2127;
+    box-shadow: 0px 16px 48px 0px rgba(255, 107, 24, 0.08);
+
+}
+
+.heroContainerHeader {
+    height: 137px;
+    background-color: #181E20;
+}
+
+
+
+.heroContainerBody {
+    background: linear-gradient(180deg, rgba(18, 22, 23, 0.00) 0%, #121617 77.43%);
+    width: 100%;
+    height: 778px;
+    margin-top: 55px;
+    padding-top: 236px;
+    padding-left: 120px;
+
+}
+
+
+.heroContainer .heroTextContainer {
+    width: 811px;
+    color: var(--natural-white);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.heroContainer .heroTextContainer h1 {
+    font-size: 92px;
+    font-weight: 700;
+}
+
+.heroContainer .heroTextContainer p {
+    width: 704px;
+    color: #A9C2C9;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.heroContainer .heroBodyMoreBTns {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 32px;
+}
+
+.heroContainer .heroBodyMoreBTns .ticketBtn {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    color: #ffffff;
+}
+
+.heroContainer .heroBodyMoreBTns span a {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.heroContainer .heroBodyMoreBTns .viewMoreBtn {
+    margin-left: 45px;
+}

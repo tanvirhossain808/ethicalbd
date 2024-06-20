@@ -1,4 +1,6 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins&display=swap');
+
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +67,48 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+ */
+
+:root {
+  --natural-white: #FFFFFF;
+  --font-poppins: "Poppins", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:visited,
+a:active {
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  max-width: 1440px;
+  min-height: 100vh;
+  font-family: var(--font-inter);
+  background-color: #212525;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
