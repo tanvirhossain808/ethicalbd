@@ -1,0 +1,5 @@
+.cardImagesContainer {
+    margin-top: 150px;
+    display: flex;
+    gap: 24px;
+}

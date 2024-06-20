@@ -6,22 +6,24 @@ const HeroContainer = () => {
     return (
         <div>
             <div className="heroContainer">
-                <div className="heroContainerHeader container">
-                    <div className="heroAvatar">
-                        <img src={messageAvatar} alt="" />
-                    </div>
-                    <div className="heroNavigation">
-                        <ul>
-                            <li>Get Ticket</li>
-                            <li>Schedule</li>
-                            <li>Speakers</li>
-                            <li>FAQ</li>
-                        </ul>
-                    </div>
-                    <div className="heroRegBtn">
-                        <button>
-                            Register
-                        </button>
+                <div className="heroContainerHeader">
+                    <div className="container">
+                        <div className="heroAvatar">
+                            <img src={messageAvatar} alt="" />
+                        </div>
+                        <div className="heroNavigation">
+                            <ul>
+                                <li>Get Ticket</li>
+                                <li>Schedule</li>
+                                <li>Speakers</li>
+                                <li>FAQ</li>
+                            </ul>
+                        </div>
+                        <div className="heroRegBtn">
+                            <button>
+                                Register
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div className="heroContainerBody">
