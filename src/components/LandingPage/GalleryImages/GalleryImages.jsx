@@ -17,10 +17,10 @@ const GalleryImages = () => {
                         <img src={galarrypic2} alt="" />
                     </div>
                     <div className="image3">
-                        <img src={galarrypic3} alt="" />
+                        <img src={galarrypic4} alt="" />
                     </div>
                     <div className="image4">
-                        <img src={galarrypic4} alt="" />
+                        <img src={galarrypic3} alt="" />
                     </div>
                 </div>
             </div>

@@ -3,6 +3,7 @@ import DiscoverableImage from "../../components/LandingPage/DiscoverImages/Disco
 import HeroContainer from "../../components/LandingPage/HeroContainer/HeroContainer";
 import CardsImages from "../../components/LandingPage/CardsImages/CardsImages";
 import GalleryImages from "../../components/LandingPage/GalleryImages/GalleryImages";
+import MoreExplore from "../../components/LandingPage/MoreExplore/MoreExplore";
 
 const LandingPage = () => {
     return (
@@ -20,8 +21,10 @@ const LandingPage = () => {
                 <div className="gallery">
                     <GalleryImages />
                 </div>
+                <div className="explores">
+                    <MoreExplore />
+                </div>
             </div>
-
         </>
     );
 };

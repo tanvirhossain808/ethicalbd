@@ -1,0 +1,113 @@
+.moreExploreContainer .title h2 {
+    color: var(--White, #FCFCFC);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.moreExploreContainer .title p {
+    color: var(--Dark-Grey, #B9B9B9);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.moreExploreContainer .moreExploreBtn {
+    display: flex;
+    gap: 24px;
+}
+
+.moreExploreContainer .exploreBtn {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: var(--White, #FCFCFC);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 5px;
+    background: var(--Glass-Black, rgba(80, 80, 80, 0.50));
+}
+
+.moreExploreContainer .active {
+    background-color: #ED2127;
+}
+
+.moreExploreContainer .exploresImages {
+    margin-top: 37px;
+    display: grid;
+    gap: 25px;
+    /* grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px); */
+    /* Four equal columns */
+    grid-template-areas: "image1 image1 image2 image3"
+        "image1 image1 image4 image5"
+        "image6 image7 image8 image9";
+
+
+}
+
+.moreExploreContainer .exploresImages .image1 {
+    grid-area: image1;
+    width: 548px;
+    height: 622px;
+}
+
+.moreExploreContainer .exploresImages .image2 {
+    grid-area: image2;
+    width: 267px;
+    height: 202px;
+}
+
+.moreExploreContainer .exploresImages .image3 {
+    grid-area: image3;
+    width: 267px;
+    height: 202px;
+}
+
+.moreExploreContainer .exploresImages .image4 {
+    grid-area: image4;
+    width: 267px;
+    height: 202px;
+}
+
+.moreExploreContainer .exploresImages .image5 {
+    grid-area: image5;
+    width: 267px;
+    height: 202px;
+}
+
+.moreExploreContainer .exploresImages .image6 {
+    grid-area: image6;
+    width: 267px;
+    height: 202px;
+}
+
+.moreExploreContainer .exploresImages .image7 {
+    grid-area: image7;
+    width: 267px;
+    height: 202px;
+}
+
+.moreExploreContainer .exploresImages .image8 {
+    grid-area: image8;
+    width: 267px;
+    height: 202px;
+}
+
+.moreExploreContainer .exploresImages .image9 {
+    grid-area: image9;
+    width: 100%;
+    height: auto;
+    width: 267px;
+    height: 202px;
+}

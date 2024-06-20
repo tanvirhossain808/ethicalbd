@@ -74,6 +74,8 @@ button:focus-visible {
   --natural-white: #FFFFFF;
   --font-poppins: "Poppins", sans-serif;
   --font-inter: "Inter", sans-serif;
+  --Dark-Grey: #B9B9B9;
+  --Glass-Black: #50505080;
 }
 
 * {
@@ -98,6 +100,7 @@ li {
 
 button {
   cursor: pointer;
+  border: none;
 }
 
 body {
