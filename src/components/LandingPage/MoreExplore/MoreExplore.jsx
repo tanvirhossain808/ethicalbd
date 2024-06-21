@@ -17,6 +17,8 @@ const MoreExplore = () => {
         explore3,
         explore4,
         explore5,
+    ]
+    const leftExploreImages = [
         explore6,
         explore7,
         explore8,
@@ -36,8 +38,28 @@ const MoreExplore = () => {
             </div>
             <div className="exploresImages">
                 {
-                    exploresImg.map((img, index) => <img className={`image${index + 1}`} key={index} src={img} />)
+                    exploresImg.map((img, index) => <div key={index} className={`image${index + 1}`}> <img src={img} />
+                        <div className="moreExploreTitleContainer">
+                            <p className="title">Interview</p>
+                            <p className="moreExploreImgTitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>)
                 }
+            </div>
+            <div className="leftExploreImages">
+                {
+                    leftExploreImages.map((img, index) => <div key={index} className="leftImages"> <img src={img} />
+                        <div className="moreExploreTitleContainer">
+                            <p className="title">Interview</p>
+                            <p className="moreExploreImgTitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>)
+                }
+            </div>
+            <div className="browseMoreVideo">
+                <button>
+                    Browse More Video
+                </button>
             </div>
         </div>
     );

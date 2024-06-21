@@ -46,68 +46,215 @@
     margin-top: 37px;
     display: grid;
     gap: 25px;
+    grid-template-columns: 548px 302px 302px;
+    /* gap: 25px; */
     /* grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 200px); */
     /* Four equal columns */
-    grid-template-areas: "image1 image1 image2 image3"
-        "image1 image1 image4 image5"
-        "image6 image7 image8 image9";
+    grid-template-areas: "image1 image2 image3"
+        "image1 image4 image5"
+        /* "image6 image7 image8 image9"; */
 
 
 }
 
 .moreExploreContainer .exploresImages .image1 {
     grid-area: image1;
-    width: 548px;
-    height: 622px;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    position: relative;
 }
+
+.moreExploreContainer .exploresImages .image1 .moreExploreTitleContainer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 548px;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 16px;
+    color: var(--White, #FCFCFC);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.moreExploreContainer .exploresImages .image1 .moreExploreTitleContainer .title {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    gap: 4px;
+    border-radius: 8px;
+    background: var(--Glass-Black, rgba(80, 80, 80, 0.50));
+    backdrop-filter: blur(5px);
+    color: var(--White, #FCFCFC);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 27px */
+}
+
+/* .moreExploreContainer .exploresImages .image1 {
+    grid-area: image1;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+} */
 
 .moreExploreContainer .exploresImages .image2 {
     grid-area: image2;
-    width: 267px;
-    height: 202px;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    position: relative;
+
 }
 
 .moreExploreContainer .exploresImages .image3 {
     grid-area: image3;
-    width: 267px;
-    height: 202px;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    position: relative;
+
 }
 
 .moreExploreContainer .exploresImages .image4 {
     grid-area: image4;
-    width: 267px;
-    height: 202px;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    position: relative;
 }
 
 .moreExploreContainer .exploresImages .image5 {
     grid-area: image5;
-    width: 267px;
-    height: 202px;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    position: relative;
 }
 
-.moreExploreContainer .exploresImages .image6 {
-    grid-area: image6;
-    width: 267px;
-    height: 202px;
+.moreExploreContainer .exploresImages .image2 .title,
+.moreExploreContainer .exploresImages .image3 .title,
+.moreExploreContainer .exploresImages .image4 .title,
+.moreExploreContainer .exploresImages .image5 .title {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    padding: 8px;
+    color: var(--White, #FCFCFC);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: var(--Glass-Black, rgba(80, 80, 80, 0.50));
+    backdrop-filter: blur(5px);
 }
 
-.moreExploreContainer .exploresImages .image7 {
-    grid-area: image7;
-    width: 267px;
-    height: 202px;
+.moreExploreContainer .exploresImages .moreExploreImgTitle {
+    margin-top: 25px;
 }
 
-.moreExploreContainer .exploresImages .image8 {
-    grid-area: image8;
-    width: 267px;
-    height: 202px;
+.moreExploreContainer .leftExploreImages {
+    margin-top: 24px;
+    display: flex;
+    gap: 40px;
 }
 
-.moreExploreContainer .exploresImages .image9 {
-    grid-area: image9;
-    width: 100%;
-    height: auto;
-    width: 267px;
-    height: 202px;
+.leftExploreImages .leftImages {
+    position: relative;
+
+}
+
+.leftExploreImages .moreExploreTitleContainer .moreExploreImgTitle {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    /* 138.889% */
+    margin-top: 25px;
+
+}
+
+.leftExploreImages .moreExploreTitleContainer .title {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    display: inline-flex;
+    padding: 8px;
+    align-items: center;
+    gap: 4px;
+    border-radius: 5px;
+    background: var(--Glass-Black, rgba(80, 80, 80, 0.50));
+    backdrop-filter: blur(5px);
+    color: var(--White, #FCFCFC);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* 138.889% */
+
+}
+
+.browseMoreVideo {
+    margin-top: 50px;
+}
+
+.browseMoreVideo button {
+    display: flex;
+    width: 1200px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    border: 2px solid #ED2127;
+    background: var(--Glass-Black, rgba(80, 80, 80, 0.50));
+    backdrop-filter: blur(5px);
+    color: var(--White, #FCFCFC);
+    font-family: var(--font-poppins);
+    font-size: 18px;
+    font-weight: 700;
 }
