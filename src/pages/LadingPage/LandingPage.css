@@ -17,3 +17,29 @@
 .exploresAndJoin {
     margin-top: 150px;
 }
+
+.queryAnswer {
+    margin-top: 150px;
+}
+
+.unicef {
+    margin-top: 150px;
+}
+
+.unicefHr {
+    margin: 69px 0;
+    width: 100%;
+    height: 1px;
+    background: #FFF;
+}
+
+.landingFooter {
+    margin-top: 150px;
+    height: 232px;
+    width: 100%;
+    background: #181E20;
+    padding-left: 150px;
+    padding-right: 140px;
+    overflow: hidden;
+
+}

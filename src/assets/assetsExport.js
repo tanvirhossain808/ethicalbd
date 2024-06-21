@@ -19,6 +19,10 @@ import explore6 from "./explores/picture6.png"
 import explore7 from "./explores/picture 7.png"
 import explore8 from "./explores/picture8.png"
 import explore9 from "./explores/picture9.png"
+import exploreCard1 from "./exploreCards/Card event (1).png"
+import exploreCard2 from "./exploreCards/Card event (2).png"
+import exploreCard3 from "./exploreCards/Card event.png"
+import unicefPicture from "./unicef/800px-UNICEF_Logo 5.png"
 
 
 
@@ -43,5 +47,9 @@ export {
     explore6,
     explore7,
     explore8,
-    explore9
+    explore9,
+    exploreCard1,
+    exploreCard2,
+    exploreCard3,
+    unicefPicture
 }

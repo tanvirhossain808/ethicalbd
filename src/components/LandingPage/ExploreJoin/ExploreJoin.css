@@ -22,3 +22,25 @@
     width: 567px;
     /* 150% */
 }
+
+.exploreJoinCards {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.exploreJoinCards img {
+    width: 386px;
+    height: 489px;
+}
+
+.directionalArrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 16px;
+}
+
+.directionalArrow svg {
+    cursor: pointer;
+}

@@ -1,0 +1,110 @@
+.landingPageFooterContainer {
+    height: 100%;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+
+}
+
+.landingPageFooterContainer .companyIntro {
+    /* margin-right: 102px; */
+}
+
+.landingPageFooterContainer .companyIntro {
+    padding-top: 56px;
+    color: var(--Neutural-Grey-2, #9FA9BC);
+    width: 254px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.landingPageFooterContainer .companyIntro p {
+    max-width: 254px;
+    width: 100%;
+    max-height: 72px;
+    height: 100%;
+}
+
+.landingPageFooterContainer h3 {
+    color: var(--Neutural-white, #FFF);
+    /* Medium/M 16 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+.landingPageFooterContainer p {
+    color: var(--Neutural-Grey-2, #9FA9BC);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.landingPageFooterContainer .footerLinks ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.landingPageFooterContainer .footerNavigation {
+    /* margin-right: 175px; */
+}
+
+.landingPageFooterContainer .newLetter {
+    /* margin-left: 149px; */
+}
+
+.landingPageFooterContainer .footerLinks li {
+    cursor: pointer;
+    width: auto;
+}
+
+.landingPageFooterContainer .newLetter {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.landingPageFooterContainer .newLetter p {
+    width: 245px;
+}
+
+.landingPageFooterContainer .newLetter .inputSection {
+    display: flex;
+    width: 270px;
+    height: 48px;
+    padding: 8px 4px 8px 20px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-shrink: 0;
+    background-color: #2D373A;
+    margin-top: 16px;
+}
+
+.landingPageFooterContainer .newLetter .inputSection input {
+    outline: none;
+    background-color: inherit;
+    border: none;
+    color: #9FA9BC;
+}
+
+.landingPageFooterContainer .newLetter .inputSection span {
+    display: inline-flex;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 10px;
+    background: linear-gradient(0deg, #ED2127 0%, #ED2127 100%), #5B6BFF;
+    cursor: pointer;
+}
+
+.landingPageFooterContainer .newLetter .inputSection input::placeholder {
+    color: #9FA9BC;
+}
